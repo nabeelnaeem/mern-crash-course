@@ -6,7 +6,7 @@ import productRoutes from './routes/product.route.js'
 
 dotenv.config();
 
-const PORT = process.env.BE_PORT;
+const PORT = process.env.BE_PORT || 5000;
 
 const app = express();
 
